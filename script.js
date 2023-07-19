@@ -1,4 +1,3 @@
-window.addEventListener("load", () => {
 const card = document.querySelectorAll(".card");
 const easy = document.querySelector(".level .easy");
 const hard = document.querySelector(".hard");
@@ -11,6 +10,10 @@ const header = document.querySelector("header");
 let matched = 0;
 let cardOne, cardTwo;
 let disableDeck = false;
+
+function init() {
+    document.querySelector('body').style.display = 'flex';
+}
 
 function flipCard(e) {
     clickedCard = e.target;
@@ -125,4 +128,3 @@ function Game() {
 }
 
 Game();
-});
