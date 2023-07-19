@@ -8,18 +8,25 @@
 }
 
 body {
-    background-image: url(./images/bgimg.jpg);
-    background-size: cover;
-    display: flex;
-    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    display: none;
     justify-content: center;
-    min-height: 100vh;
+    align-items: center;
+    margin: auto;
+}
+
+#bg {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
 }
 
 main {
     background-color: tomato;
     width: 400px;
     text-align: center;
+    z-index: 1;
 }
 
 main header {
