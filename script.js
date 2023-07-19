@@ -1,3 +1,4 @@
+window.addEventListener("load", () => {
 const card = document.querySelectorAll(".card");
 const easy = document.querySelector(".level .easy");
 const hard = document.querySelector(".hard");
@@ -124,3 +125,4 @@ function Game() {
 }
 
 Game();
+});
